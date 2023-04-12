@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Search Music</title>
+</head>
+<body>
+    <h1>Search Music</h1>
+    <form action="{% url 'results' %}" method="get">
+        <label for="query">Search:</label>
+        <input type="text" name="query" id="query">
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
